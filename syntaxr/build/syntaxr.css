@@ -1,0 +1,27 @@
+.syn {
+  color: white; }
+  .syn.js-cmt {
+    color: grey; }
+  .syn.js-def {
+    color: cyan; }
+  .syn.js-var {
+    color: greenyellow; }
+  .syn.js-num {
+    color: violet; }
+  .syn.js-str {
+    color: goldenrod; }
+  .syn.js-arg {
+    color: orange;
+    font-style: italic; }
+  .syn.js-brw {
+    color: cyan; }
+  .syn.js-mth {
+    color: violet; }
+  .syn.js-con {
+    color: greenyellow; }
+  .syn.js-prop {
+    color: violet; }
+  .syn.js-op {
+    color: #ff2929; }
+
+/*# sourceMappingURL=syntaxr.css.map */

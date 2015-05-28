@@ -1,0 +1,58 @@
+// syntaxr.scss
+// Variables
+	$args : orange;
+	$comment : grey;
+	$declare : cyan;
+	$browser : $declare;
+	$method : violet;
+	$method_conf : greenyellow;
+	$number: $method;
+	$ops : lighten(maroon,33%);
+	$prop : $method;
+	$string: goldenrod;
+	$variable : $method_conf;
+.syn {
+	color: white;
+	&.js-cmt {
+		color: $comment;
+	}
+	&.js-def {
+		// Declarative keywords (class, let, var)
+		color: $declare;
+	}
+	&.js-var {
+		// Variable keywords (firstName,message)
+		color: $variable;
+	}
+	&.js-num {
+		color: $number;
+	}
+	&.js-str {
+		color: $string;
+	}
+	&.js-arg {
+		// Arguments
+		color: $args;
+		font-style: italic;
+	}
+	&.js-brw {
+		// Browser/document keywords (document,console,etc)
+		color: $browser;
+	}
+	&.js-mth {
+		// Methods per es6/JSNext syntax (this.name)
+		color: $method;
+	}
+	&.js-con {
+		// Method confirmed as part of API
+		color: $method_conf;
+	}
+	&.js-prop {
+			// Properties of a class/library
+			color: $prop;
+		}
+	&.js-op {
+			// JS Operators (`+`,`=`,`.`)
+			color: $ops;
+		}
+	}
